@@ -2,7 +2,7 @@
 
 Repositório dedicado ao exercício ["FAQ Accordion Card"](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) do site [Frontend Mentor](https://www.frontendmentor.io).
 
-## 🎯Desafio
+## 🎯 Desafio
 
 "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!"
 
