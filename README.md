@@ -1,12 +1,12 @@
-# (emoji) nome desafio
+# 🤔 FAQ Accordion Card
 
-Repositório dedicado ao exercício ["nome desafio"](link desafio) do site [Frontend Mentor](https://www.frontendmentor.io).
+Repositório dedicado ao exercício ["FAQ Accordion Card"](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) do site [Frontend Mentor](https://www.frontendmentor.io).
 
 ## 🎯Desafio
 
-"texto em ingles"
+"In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!"
 
-*(texto traduzido)*
+*(Neste desafio, você estará construindo um acordeão de FAQ. Este é um padrão de front-end extremamente comum, por isso é uma ótima oportunidade para praticar um pouco!)*
 
 ### ⚒️ Tecnologias utilizadas 
 - HTML5
@@ -14,7 +14,7 @@ Repositório dedicado ao exercício ["nome desafio"](link desafio) do site [Fron
 
 ### 🤩 Resultado
 
-- [Confira aqui o resultado!](link do site)
+- [Confira aqui o resultado!](https://fem-vn-faq-accordion-card.netlify.app)
 
 ### 📸 Screenshots
 
