@@ -70,6 +70,10 @@
     cursor: pointer;
 }
 
+.faq-questions li:hover .question p {
+    color: hsl(14, 88%, 65%);
+}
+
 .question {
     font-size: 1.3em;
     flex-direction: row;
