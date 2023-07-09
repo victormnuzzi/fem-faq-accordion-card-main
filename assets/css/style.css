@@ -28,17 +28,24 @@
     height: 600px;
     background-color: white;
     border-radius: 28px;
+    overflow: hidden;
 }
 
 /* Image */
 
 .img-container {
-    
+    width: 40%;
+    height: 100%;
 }
 
 .img-illustration {
-    
+    position: relative;
 }
+
+.img-bg {
+    position: relative;
+}
+
 
 /* FAQ */
 
