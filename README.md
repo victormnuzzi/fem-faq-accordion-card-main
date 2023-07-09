@@ -1,6 +1,6 @@
 # 🤔 FAQ Accordion Card
 
-Repositório dedicado ao exercício ["FAQ Accordion Card"](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) do site [Frontend Mentor](https://www.frontendmentor.io).
+Repositório dedicado ao exercício ["FAQ Accordion Card"](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) (não finalizado), realizado utilizando o conceito de mobile fisrt e responsividade, do site [Frontend Mentor](https://www.frontendmentor.io).
 
 ## 🎯 Desafio
 
