@@ -68,6 +68,7 @@
 .faq-questions li {
     padding: 20px 0px;
     cursor: pointer;
+    transition: .7s;
 }
 
 .faq-questions li:hover .question p {
@@ -82,6 +83,9 @@
 }
 
 .question img{
+    transition: .3s;
+}
+.question p {
     transition: .3s;
 }
 

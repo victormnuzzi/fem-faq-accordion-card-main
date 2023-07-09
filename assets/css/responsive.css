@@ -1,4 +1,4 @@
-@media screen and (max-width: 1330px){
+@media screen and (max-width: 1080px){
 
     /* Card Content */
     .card-container {
@@ -59,11 +59,11 @@
 
 }
 
-@media screen and (min-width: 1331px) {
+@media screen and (min-width: 1081px) {
 
     /* Card Content */
     .card-container {
-        width: 1200px;
+        width: 1000px;
         padding: 30px;
         box-shadow: 0px 20px 60px hsla(0, 0%, 0%, 0.4);
         flex-direction: row;
@@ -73,7 +73,7 @@
     /* Image */
     .img-container {
         height: 100%;
-        width: 40%;
+        width: 50%;
     }
 
     .img-box {
@@ -98,7 +98,7 @@
 
     .faq-content-container {
         height: 100%;
-        width: 60%;
+        width: 50%;
         padding: 50px;
     }
 
