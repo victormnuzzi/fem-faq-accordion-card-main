@@ -11,6 +11,7 @@ Repositório dedicado ao exercício ["FAQ Accordion Card"](https://www.frontendm
 ### ⚒️ Tecnologias utilizadas 
 - HTML5
 - CSS3
+- JavaScript
 
 ### 🤩 Resultado
 
