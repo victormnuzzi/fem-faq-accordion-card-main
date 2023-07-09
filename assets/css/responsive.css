@@ -1,7 +1,58 @@
 @media(max-width: 850px){
+
+    /* Card Content */
+    .card-container {
+        width: 375px;
+        padding: 30px;
+        position: relative;
+        top: 50px;
+        box-shadow: 0px 20px 80px hsla(0, 0%, 0%, 0.4);
+    }
+
+    /* Image */
+    .img-container {
+        height: 22%;
+        width: 85%;
+    }
+
+    .img-illustration {
+        width: 100%;
+        position: relative;
+        top: -150px;
+    }
     
+    .img-bg {
+        width: 100%;
+        position: relative;
+        top: -235px;
+    }
 
+    /* FAQ */
 
+    .faq-content-container {
+        height: 78%;
+    }
+
+    .faq-content-container h1 {
+        text-align: center;
+        height: 10%;
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+
+    /* FAQ Questions */
+
+    .faq-questions {
+        height: 90%;
+    }
+
+    .question {
+        font-size: 0.95rem;
+    }
+
+    .answer {
+        font-size: 0.9rem;
+    }
 
 }
 
