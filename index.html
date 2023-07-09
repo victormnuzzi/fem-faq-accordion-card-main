@@ -23,7 +23,7 @@
 </head>
 <body>
   <!-- <i class="fa-solid fa-angle-up"></i> -->
-
+  
   <article class="container flexbox">
     <div class="card-container flexbox">
       <div class="img-container">
@@ -36,52 +36,52 @@
           <source media="(max-width: 1330px)" srcset="./assets/images/illustration-woman-online-mobile.svg">
           <img src="./assets/images/illustration-woman-online-desktop.svg" alt="Illustration of a woman online" class="img-illustration">
         </picture>
-        
         <img src="./assets/images/illustration-box-desktop.svg" alt="Illustration of a box" class="img-box">  
+        
       </div>
       <div class="faq-content-container">
         <h1>FAQ</h1>
         <ul class="faq-questions">
-          <li>
-            <div class="question flexbox" id="question1" onclick="selectedQuestion(1)">
+          <li onclick="selectedQuestion(1)">
+            <div class="question flexbox" id="question1">
               <p>How many team members can I invite?</p>
-              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down">
+              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down" id="arrow-icon1">
             </div>
             <p class="answer" id="answer1">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
           </li>
           <div class="question-divider"></div>
           
-          <li>
-            <div class="question flexbox" id="question2" onclick="selectedQuestion(2)">
+          <li onclick="selectedQuestion(2)">
+            <div class="question flexbox" id="question2">
               <p>What is the maximum file upload size?</p>
-              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down">
+              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down" id="arrow-icon2">
             </div>
             <p class="answer" id="answer2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
           </li>
           <div class="question-divider"></div>
-      
-          <li>
-            <div class="question flexbox" id="question3" onclick="selectedQuestion(3)">
+          
+          <li onclick="selectedQuestion(3)">
+            <div class="question flexbox" id="question3">
               <p>How do I reset my password?</p>
-              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down">
+              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down" id="arrow-icon3">
             </div>
             <p class="answer" id="answer3">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
           </li>
           <div class="question-divider"></div>
-
-          <li>
-            <div class="question flexbox" id="question4" onclick="selectedQuestion(4)">
+          
+          <li onclick="selectedQuestion(4)">
+            <div class="question flexbox" id="question4">
               <p>Can I cancel my subscription?</p>
-              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down">
+              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down" id="arrow-icon4">
             </div>
             <p class="answer" id="answer4">Yes! Send us a message and we'll process your request no questions asked.</p>
           </li>
           <div class="question-divider"></div>
-      
-          <li>
-            <div class="question flexbox" id="question5" onclick="selectedQuestion(5)">
+          
+          <li onclick="selectedQuestion(5)">
+            <div class="question flexbox" id="question5">
               <p>Do you provide additional support?</p>
-              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down">
+              <img src="./assets/images/icon-arrow-down.svg" alt="Icon arrow down" id="arrow-icon5">
             </div>
             <p class="answer" id="answer5">Chat and email support is available 24/7. Phone dividers are open during normal business hours.</p>
           </li>
@@ -90,7 +90,7 @@
       </div>
     </div>
   </article>
-
+  
   <!-- 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

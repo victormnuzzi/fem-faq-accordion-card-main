@@ -1,22 +1,39 @@
-let selectedNumber;
+let previousNumber;
 let questionCounter;
-function selectedQuestion(number) {
-    if (selectedNumber == undefined) {
-        document.getElementById(`question${number}`).style.fontWeight = "700";
-        document.getElementById(`answer${number}`).style.display = "block";
-        selectedNumber = number;
+function selectedQuestion(actualNumber) {
+    const actualQuestion = document.getElementById(`question${actualNumber}`);
+    const actualAnswer = document.getElementById(`answer${actualNumber}`);
+    const actualArrow = document.getElementById(`arrow-icon${actualNumber}`);
+    const previousQuestion = document.getElementById(`question${previousNumber}`);
+    const previousAnswer = document.getElementById(`answer${previousNumber}`);
+    const previousArrow = document.getElementById(`arrow-icon${previousNumber}`);
+
+    if (previousNumber == undefined) {
+        actualQuestion.style.fontWeight = "700";
+        actualAnswer.style.display = "block";
+        actualArrow.style.transform = "rotate(180deg)";
+        
+        previousNumber = actualNumber;
         questionCounter = 0;
-    } else if (selectedNumber == number && questionCounter == 0) {
-        document.getElementById(`question${selectedNumber}`).style.fontWeight = "400";
-        document.getElementById(`answer${selectedNumber}`).style.display = "none";
-        selectedNumber = number;
+
+    } else if (previousNumber == actualNumber && questionCounter == 0) {
+        previousQuestion.style.fontWeight = "400";
+        previousAnswer.style.display = "none";
+        previousArrow.style.transform = "rotate(0deg)";
+        
+        previousNumber = actualNumber;
         questionCounter = 1;
+        
     } else {
-        document.getElementById(`question${selectedNumber}`).style.fontWeight = "400";
-        document.getElementById(`answer${selectedNumber}`).style.display = "none";
-        document.getElementById(`question${number}`).style.fontWeight = "700";
-        document.getElementById(`answer${number}`).style.display = "block";
-        selectedNumber = number;
+        previousQuestion.style.fontWeight = "400";
+        previousAnswer.style.display = "none";
+        previousArrow.style.transform = "rotate(0deg)";
+        
+        actualQuestion.style.fontWeight = "700";
+        actualAnswer.style.display = "block";
+        actualArrow.style.transform = "rotate(180deg)";
+        
+        previousNumber = actualNumber;
         questionCounter = 0;
     }
 }

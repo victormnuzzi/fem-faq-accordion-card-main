@@ -66,8 +66,8 @@
 }
 
 .faq-questions li {
-    cursor: pointer;
     padding: 20px 0px;
+    cursor: pointer;
 }
 
 .question {
@@ -77,8 +77,8 @@
     color: hsl(237, 12%, 33%);
 }
 
-.fa-angle-down {
-    color: hsl(14, 88%, 65%);
+.question img{
+    transition: .3s;
 }
 
 .question-divider {
