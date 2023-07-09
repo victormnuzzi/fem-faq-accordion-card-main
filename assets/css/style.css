@@ -4,3 +4,55 @@
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+/* Flexbox */
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Article */
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    border: 2px solid yellow;
+}
+
+/* ------------- Card content ------------- */
+
+.card-content {
+    height: 720px;
+    border: 2px solid cyan;
+}
+
+/* Image */
+
+.img-container {
+    border: 2px solid blue;
+}
+
+.img-container img {
+    border: 2px solid red;
+}
+
+/* FAQ */
+
+.faq-content-container h1 {
+    font-size: 2em;
+    border: 2px solid red;
+}
+
+/* FAQ Questions */
+
+.faq-questions {
+    list-style: none;    
+    border: 2px solid green;
+}
+
+.faq-questions h2 {
+    font-size: 1.3em;
+}
